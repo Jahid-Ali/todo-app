@@ -86,7 +86,7 @@ const App = () => {
   return (
     <div className="todoItem_container">
       <div className="todoItem_header">
-        <h1>Task Manager</h1>
+        <h1>Manage your Task</h1>
         <form className="form" onSubmit={(e) => { addItem(e) }}>
           <input type="text" placeholder="Add Task" onChange={(e) => { setText(e.target.value) }} value={text} />
           <button type="submit">Add</button>
