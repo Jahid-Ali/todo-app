@@ -1,0 +1,141 @@
+.todoItem_container {
+ display: flex;
+ justify-content: center;
+}
+
+.todoItem_header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 5px;
+  position: fixed;
+  z-index: 10;
+  background-color: #429cd9;
+  height: 8rem;
+  border-bottom: 2px solid rgb(130, 215, 228);
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.form input[type="text"] {
+  padding: 10px;
+  width: 65%;
+  border: 2px solid grey;
+  border-radius: 6px;
+  font-size: 17px;
+  margin-right: 20px;
+}
+
+.form input[type="text"]:focus,
+.form button[type="submit"]:focus {
+  outline: none;
+}
+
+.form button[type="submit"] {
+  color: #000;
+  background: linear-gradient(145deg, #290357, #ffffff);
+  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+  border: none;
+  border-radius: 6px;
+  padding: 12px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 20px;
+}
+
+.form button[type="submit"]:hover {
+  box-shadow: 4px 4px 8px #290357, -4px -4px 8px #ffffff;
+}
+
+.todoItem_List {
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  width: 100%;
+  padding: 26px 80px;
+  position: relative;
+  top: 8rem;
+}
+
+.todoItem {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.item_content {
+  width: 60%;
+  padding-bottom: 5px;
+  border-bottom: 2px solid rgb(92, 92, 92);
+  font-size: 18px;
+}
+
+.todoItem button {
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.todoItem button:focus {
+  outline: none;
+}
+
+.update_item {
+  background: linear-gradient(145deg, #007c04, #ffffff);
+  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+}
+
+.update_item:hover {
+  box-shadow: 4px 4px 8px #007c04, -4px -4px 8px #ffffff;
+}
+
+.delete_item {
+  background: linear-gradient(145deg, #d33100, #ffffff);
+  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+}
+
+.delete_item:hover {
+  box-shadow: 4px 4px 8px #d33100, -4px -4px 8px #ffffff;
+}
+
+
+.update-form{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.update-form input[type="text"] {
+  padding: 10px;
+  width: 60%;
+  border: 2px solid grey;
+  border-radius: 6px;
+  font-size: 17px;
+  margin-right: 40px;
+}
+
+.update-form button[type="submit"] {
+  color: #000;
+  background: linear-gradient(145deg, #290357, #ffffff);
+  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+  border: none;
+  border-radius: 6px;
+  padding: 6px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 40px;
+}
+
+.update-form button[type="submit"]:hover {
+  box-shadow: 4px 4px 8px #290357, -4px -4px 8px #ffffff;
+}
